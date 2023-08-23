@@ -43,7 +43,7 @@ const Contact = () => {
       .then(() => {
         setLoading(false);
         toast.success("Thank you, I will get back to you as soon as possible.");
-        setForm((prev) => initialFormValue);
+        setForm(initialFormValue);
       })
       .catch(() => {
         toast.error("Something went wrong...");
