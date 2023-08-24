@@ -8,7 +8,6 @@ const Stars = (props:any) => {
   const numberOfStars = 10000;
   const ref = useRef<any>();
   const [sphere] = useState(() => random.inSphere(new Float32Array(numberOfStars), { radius: 1.2 }));
-
   //@ts-ignore
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 10;
