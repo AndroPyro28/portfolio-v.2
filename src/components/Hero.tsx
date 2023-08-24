@@ -5,7 +5,7 @@ import cn from "../utils/twMerge";
 import { TypeAnimation } from "react-type-animation";
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen mx-auto mt-5">
+    <section className="relative w-full h-[80vh] xl:h-[100vh] mx-auto mt-5">
       <div
         className={ cn(`absolute inset-0 top-[120px]  max-w-7xl mx-auto ${styles.paddingX} flex flex-row items-start gap-5`)}
       >
@@ -36,7 +36,7 @@ const Hero = () => {
           </p>
         </div>
       </div>
-
+      
       <ComputersCanvas />
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center ">

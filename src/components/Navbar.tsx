@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
             <span className="sm:block hidden"> | Web Developer</span>{" "}
           </p>
         </Link>
-        <ul className="list-non hidden sm:flex flex-row gap-10">
+        <ul className="list-none hidden md:flex flex-row gap-7">
           {navLinks.map((link) => {
             return (
               <li
@@ -74,7 +74,7 @@ const Navbar: React.FC = () => {
           </li>
         </ul>
 
-        <div className="sm:hidden flex flex-1 justify-end items-center ">
+        <div className="md:hidden flex flex-1 justify-end items-center ">
           <img
             src={toggle ? close : menu}
             alt="menu"
