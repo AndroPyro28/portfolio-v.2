@@ -212,7 +212,7 @@ const projects = [
       },
     ],
     image: topnotch1,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AndroPyro28/TopNotchGrooming",
   },
   {
     name: "Social Application",
@@ -233,7 +233,7 @@ const projects = [
       },
     ],
     image: socialApp,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AndroPyro28/social-application",
   },
   {
     name: "Study With Me",
@@ -254,7 +254,7 @@ const projects = [
       },
     ],
     image: studyWithMe,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AndroPyro28/study-with-me",
   },
   {
     name: "Zsakers Cafe",
@@ -275,7 +275,7 @@ const projects = [
       },
     ],
     image: zsakers,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/AndroPyro28/Zsackers-cafe-hagonoy",
   },
 ];
 
