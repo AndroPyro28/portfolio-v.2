@@ -25,11 +25,13 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    setLoading(true);
     if(Object.values(form).some((value) => value === '')) return toast.error("Fill out the forms to send the message.");
 
     const validateEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(form.email)
     if(!validateEmail) return toast.error("You have entered an invalid email address.");
+
+    setLoading(true);
+
     emailJs
       .send(
         "service_pba66lp",
@@ -105,6 +107,7 @@ const Contact = () => {
           <button
             type="submit"
             className="bg-tertiary py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-md"
+            disabled={loading}
           >
             {loading ? "Sending..." : "Send"}
           </button>
