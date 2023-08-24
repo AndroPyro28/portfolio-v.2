@@ -26,7 +26,7 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setLoading(true);
-
+    if(Object.values(form).some((value) => value === '')) return toast.error("Fill out the forms to send the message.");
     emailJs
       .send(
         "service_pba66lp",
