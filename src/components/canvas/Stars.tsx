@@ -4,8 +4,9 @@ import { Points, PointMaterial, Preload } from "@react-three/drei";
 import * as random from "maath/random/dist/maath-random.cjs";
 
 const Stars = (props:any) => {
+  const numberOfStars = 5000;
   const ref = useRef<any>();
-  const [sphere] = useState(() => random.inSphere(new Float32Array(10000), { radius: 1.2 }));
+  const [sphere] = useState(() => random.inSphere(new Float32Array(numberOfStars), { radius: 1.2 }));
   //@ts-ignore
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 10;
