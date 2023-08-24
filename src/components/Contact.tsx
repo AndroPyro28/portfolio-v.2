@@ -27,6 +27,9 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     if(Object.values(form).some((value) => value === '')) return toast.error("Fill out the forms to send the message.");
+
+    const validateEmail = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(form.email)
+    if(!validateEmail) return toast.error("You have entered an invalid email address.");
     emailJs
       .send(
         "service_pba66lp",
