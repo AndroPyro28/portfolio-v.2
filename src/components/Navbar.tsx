@@ -6,7 +6,6 @@ import { logo, menu, close } from "../assets";
 import cn from "../utils/twMerge";
 import { BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import myCv from "../assets/cv/menandro_eugenio_cv.pdf";
 const Navbar: React.FC = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
