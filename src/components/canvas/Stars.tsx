@@ -7,12 +7,15 @@ const Stars = (props:any) => {
   const numberOfStars = 5000;
   const ref = useRef<any>();
   const [sphere] = useState(() => random.inSphere(new Float32Array(numberOfStars), { radius: 1.2 }));
+  
   //@ts-ignore
   useFrame((state, delta) => {
     ref.current.rotation.x -= delta / 10;
     ref.current.rotation.y -= delta / 15;
   });
 
+
+  console.log(sphere)
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
       <Points ref={ref} positions={sphere} stride={3} frustumCulled {...props}>
@@ -35,7 +38,6 @@ const StarsCanvas = () => {
         <Suspense fallback={null}>
           <Stars />
         </Suspense>
-
         <Preload all />
       </Canvas>
     </div>

@@ -15,7 +15,7 @@ const Tech = () => {
           Programming languages, libraries and frameworks i use{" "}
         </p>
         <h2 className={styles.heroHeadText}>Technologies.</h2>
-        <p className={'sm:text-[17px] text-[17px] text-secondary tracking-wider w-[70%] mt-6'}>The following objects indicate the various software development tools that I have had the privilege to work with throughout my career. These experiences have provided me with a strong foundation in software engineering and have enabled me to deliver cutting-edge solutions to clients across various industries.</p>
+        <p className={'sm:text-[17px] text-[17px] text-secondary tracking-wider xl:w-[70%] sm:w-[100%] md:w-[100%] mt-6'}>The following objects indicate the various software development tools that I have had the privilege to work with throughout my career. These experiences have provided me with a strong foundation in software engineering and have enabled me to deliver cutting-edge solutions to clients across various industries.</p>
       </motion.div>
       <div className='w-full h-[75vh] mx-auto mt-[30px]'>
           <BallCanvas icons={icons} />

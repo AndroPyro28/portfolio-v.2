@@ -12,6 +12,7 @@ import CanvasLoader from "../Loader";
 import * as THREE from 'three';
 
 const Ball:React.FC<{icon: string, position: any}> = ({ icon, position }) => {
+  console.log(position)
   const decal = useMemo(() => new THREE.TextureLoader().load(icon), [icon]);
 
   return (
