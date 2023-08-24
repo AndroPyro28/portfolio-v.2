@@ -56,7 +56,7 @@ const Navbar: React.FC = () => {
               ` font-poppins font-medium cursor-pointer text-[16px] text-secondary flex gap-2 `
             )}
           >
-            <a href={cvUrl} download className="flex">
+            <a href={cvUrl} download={true} target="_blank" className="flex">
               <HiDownload className="text-white w-8 h-6" />{" "}
               <span className="text-white uppercase">My Cv</span>
             </a>
@@ -114,7 +114,7 @@ const Navbar: React.FC = () => {
               ` font-poppins font-medium cursor-pointer text-[16px] text-secondary flex gap-2 `
             )}
           >
-            <a href={cvUrl} download className="flex">
+            <a href={cvUrl} download={true} target="_blank" className="flex">
               <HiDownload className="text-white w-8 h-6" />{" "}
               <span className="text-white uppercase">My Cv</span>
             </a>
