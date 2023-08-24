@@ -10,6 +10,7 @@ import myCv from "../assets/cv/menandro_eugenio_cv.pdf";
 const Navbar: React.FC = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
+  const cvUrl = 'https://res.cloudinary.com/iamprogrammer/image/upload/v1692908341/bpjbeturhwg3slwir5p5.pdf'
   return (
     <nav
       className={cn(
@@ -56,7 +57,7 @@ const Navbar: React.FC = () => {
               ` font-poppins font-medium cursor-pointer text-[16px] text-secondary flex gap-2 `
             )}
           >
-            <a href={myCv} download className="flex">
+            <a href={cvUrl} download className="flex">
               <HiDownload className="text-white w-8 h-6" />{" "}
               <span className="text-white uppercase">My Cv</span>
             </a>
@@ -114,7 +115,7 @@ const Navbar: React.FC = () => {
               ` font-poppins font-medium cursor-pointer text-[16px] text-secondary flex gap-2 `
             )}
           >
-            <a href={myCv} download className="flex">
+            <a href={cvUrl} download className="flex">
               <HiDownload className="text-white w-8 h-6" />{" "}
               <span className="text-white uppercase">My Cv</span>
             </a>
