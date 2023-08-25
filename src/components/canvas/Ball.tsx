@@ -42,6 +42,7 @@ const BallCanvas:React.FC<{icons: string[]}>= ({ icons }) => {
   return (
     <Canvas frameloop='always'
     shadows
+    className="cursor-grab active:cursor-grabbing"
     dpr={[1, 1]}
     camera={{ position: [0, -2, 5], fov: 65,}}
     gl={{ preserveDrawingBuffer: true }}

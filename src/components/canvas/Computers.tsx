@@ -53,6 +53,7 @@ const ComputerCanvas = () => {
     <Canvas
       frameloop="demand"
       shadows
+      className="cursor-grab active:cursor-grabbing"
       camera={{ position: [20, 3, 5], fov: 25 }}
       gl={{ preserveDrawingBuffer: true }}
     >
