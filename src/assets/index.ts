@@ -38,6 +38,7 @@ import topnotch2 from './projects/topnotch2.png'
 import socialApp from './projects/social.png'
 import studyWithMe from './projects/study-with-me.png'
 import zsakers from './projects/zsakers.png'
+import link_demo from './link_demo.png'
 export {
   logo,
   backend,
@@ -78,5 +79,6 @@ export {
 topnotch2,
 socialApp,
 studyWithMe,
-zsakers
+zsakers,
+link_demo
 };

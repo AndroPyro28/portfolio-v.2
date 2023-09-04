@@ -37,7 +37,8 @@ import {
   topnotch2,
   studyWithMe,
   socialApp,
-  zsakers
+  zsakers,
+  link_demo
 } from "../assets";
 
 export const navLinks = [
@@ -213,6 +214,8 @@ const projects = [
     ],
     image: topnotch1,
     source_code_link: "https://github.com/AndroPyro28/TopNotchGrooming",
+    live_demo_link: ""
+
   },
   {
     name: "Social Application",
@@ -234,6 +237,8 @@ const projects = [
     ],
     image: socialApp,
     source_code_link: "https://github.com/AndroPyro28/social-application",
+    live_demo_link: ""
+
   },
   {
     name: "Study With Me",
@@ -255,6 +260,7 @@ const projects = [
     ],
     image: studyWithMe,
     source_code_link: "https://github.com/AndroPyro28/study-with-me",
+    live_demo_link: "https://study-with-me-two.vercel.app/"
   },
   {
     name: "Zsakers Cafe",
@@ -276,6 +282,7 @@ const projects = [
     ],
     image: zsakers,
     source_code_link: "https://github.com/AndroPyro28/Zsackers-cafe-hagonoy",
+    live_demo_link: ""
   },
 ];
 
