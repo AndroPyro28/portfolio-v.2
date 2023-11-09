@@ -260,7 +260,8 @@ const projects = [
     ],
     image: studyWithMe,
     source_code_link: "https://github.com/AndroPyro28/study-with-me",
-    live_demo_link: "https://study-with-me-two.vercel.app/"
+    // live_demo_link: "https://study-with-me-two.vercel.app/"
+    live_demo_link: ""
   },
   {
     name: "Zsakers Cafe",
