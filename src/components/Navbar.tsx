@@ -9,7 +9,7 @@ import { HiDownload } from "react-icons/hi";
 const Navbar: React.FC = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
-  const cvUrl = 'https://res.cloudinary.com/iamprogrammer/image/upload/v1700132087/abjfdbqvibuebgzaktrk.pdf'
+  const cvUrl = 'https://res.cloudinary.com/iamprogrammer/image/upload/v1700132375/bsg2hsksqirbsgaydirf.pdf'
   return (
     <nav
       className={cn(
