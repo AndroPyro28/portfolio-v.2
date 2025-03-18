@@ -38,7 +38,8 @@ import {
   studyWithMe,
   socialApp,
   zsakers,
-  link_demo
+  link_demo,
+  nginx
 } from "../assets";
 
 export const navLinks = [
@@ -99,6 +100,14 @@ const technologies = [
   {
     name: "Node JS",
     icon: nodejs,
+  },
+  {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Nginx",
+    icon: nginx,
   },
   {
     name: "MongoDB",
