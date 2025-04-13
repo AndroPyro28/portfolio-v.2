@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   // const cvUrl = 'https://res.cloudinary.com/iamprogrammer/image/upload/v1700132375/bsg2hsksqirbsgaydirf.pdf'
-  const cvUrl = 'http://andro-eugenio.vercel.app/src/assets/cv/menandro-eugenio-jr.pdf'
+  const cvUrl = 'https://andro-eugenio.vercel.app/src/assets/cv/menandro-eugenio-jr.pdf'
   
   return (
     <nav
