@@ -39,7 +39,9 @@ import {
   socialApp,
   zsakers,
   link_demo,
-  nginx
+  nginx,
+  laravel,
+  php
 } from "../assets";
 
 export const navLinks = [
@@ -76,6 +78,14 @@ const technologies = [
   {
     name: "nextjs",
     icon: nextjs,
+  },
+  {
+    name: "laravel",
+    icon: laravel
+  },
+  {
+    name: "PHP",
+    icon: php
   },
   {
     name: "JavaScript",

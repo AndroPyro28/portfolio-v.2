@@ -40,7 +40,11 @@ import studyWithMe from './projects/study-with-me.png'
 import zsakers from './projects/zsakers.png'
 import link_demo from './link_demo.png'
 import nginx from './tech/nginx.png'
+import laravel from './tech/laravel.png'
+import php from './tech/php.png'
 export {
+  laravel,
+php,
   logo,
   backend,
   creator,
