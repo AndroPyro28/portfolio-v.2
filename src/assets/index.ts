@@ -44,7 +44,7 @@ import laravel from './tech/laravel.png'
 import php from './tech/php.png'
 export {
   laravel,
-php,
+  php,
   logo,
   backend,
   creator,
