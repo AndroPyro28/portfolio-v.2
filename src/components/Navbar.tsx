@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   // const cvUrl = 'https://res.cloudinary.com/iamprogrammer/image/upload/v1700132375/bsg2hsksqirbsgaydirf.pdf'
-  const cvUrl = '/src/assets/cv/menandro-eugenio-jr.pdf'
+  const cvUrl = '/cv/menandro-eugenio-jr.pdf'
   
   return (
     <nav
@@ -58,7 +58,7 @@ const Navbar: React.FC = () => {
               ` font-poppins font-medium cursor-pointer text-[16px] text-secondary flex gap-2 `
             )}
           >
-            <a href={cvUrl} target="_blank" className="flex">
+            <a href={cvUrl} download={true} target="_blank" className="flex">
               <HiDownload className="text-white w-8 h-6" />{" "}
               <span className="text-white uppercase">My Cv</span>
             </a>
@@ -116,7 +116,7 @@ const Navbar: React.FC = () => {
               ` font-poppins font-medium cursor-pointer text-[16px] text-secondary flex gap-2 `
             )}
           >
-            <a href={cvUrl} download={true} target="_blank" className="flex">
+            <a href={cvUrl} target="_blank" className="flex">
               <HiDownload className="text-white w-8 h-6" />{" "}
               <span className="text-white uppercase">My Cv</span>
             </a>
