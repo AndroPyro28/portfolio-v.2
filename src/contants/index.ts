@@ -188,7 +188,7 @@ const experiences = [
     title: "Software Developer",
     company_name: "Geopro Global Solutions Inc",
     icon: geopro,
-    iconBg: "#FFFFFF",
+    iconBg: "#F5F5F5",
     date: "April 2024 - Present",
     points: [
       `Contributed to the development and up keep of a Next.js-based web platform, handling both frontend and backend functionality.`,
