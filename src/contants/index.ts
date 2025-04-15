@@ -28,6 +28,7 @@ import {
   threejs,
   jollibee,
   freelance,
+  geopro,
   nestjs,
   nextjs,
   expressjs,
@@ -176,12 +177,25 @@ const experiences = [
     company_name: "N/A",
     icon: freelance,
     iconBg: "#383E56",
-    date: "August 2022 - Present",
+    date: "August 2022 - 2024",
     points: [
       "Collaborating with cross-functional teams including developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
     ],
   },
+
+  {
+    title: "Software Developer",
+    company_name: "Geopro Global Solutions Inc",
+    icon: geopro,
+    iconBg: "#383E56",
+    date: "August 2022 - 2024",
+    points: [
+      "Collaborating with cross-functional teams including developers to create high-quality products.",
+      "Implementing responsive design and ensuring cross-browser compatibility.",
+    ],
+  },
+
   
 ];
 
