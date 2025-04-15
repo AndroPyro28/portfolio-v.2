@@ -176,7 +176,7 @@ const experiences = [
     title: "Freelance Web Developer",
     company_name: "N/A",
     icon: freelance,
-    iconBg: "#383E56",
+    iconBg: "#FFFFFF",
     date: "August 2022 - 2024",
     points: [
       "Collaborating with cross-functional teams including developers to create high-quality products.",
