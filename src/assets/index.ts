@@ -42,6 +42,7 @@ import link_demo from './link_demo.png'
 import nginx from './tech/nginx.png'
 import laravel from './tech/laravel.png'
 import php from './tech/php.png'
+import geopro from './company/geopro.jpg'
 export {
   laravel,
   php,
@@ -86,5 +87,6 @@ socialApp,
 studyWithMe,
 zsakers,
 link_demo,
-nginx
+nginx,
+geopro
 };
