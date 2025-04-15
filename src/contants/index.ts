@@ -189,7 +189,7 @@ const experiences = [
     company_name: "Geopro Global Solutions Inc",
     icon: geopro,
     iconBg: "#FFFFFF",
-    date: "August 2022 - 2024",
+    date: "April 2024 - Present",
     points: [
       `Contributed to the developmentand upkeep of a Next.js-basedweb platform, handling bothfrontend and backend functionality.`,
       "Utilized Git for version control and participated in code reviews and deployment processes.",
