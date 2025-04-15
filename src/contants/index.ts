@@ -191,8 +191,9 @@ const experiences = [
     iconBg: "#FFFFFF",
     date: "August 2022 - 2024",
     points: [
-      "Collaborating with cross-functional teams including developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      `Contributed to the developmentand upkeep of a Next.js-basedweb platform, handling bothfrontend and backend functionality.`,
+      "Utilized Git for version control and participated in code reviews and deployment processes.",
+      "Developed and maintained web scraping scripts using JavaScript (Node.js, Cheerio) to extract structured data from various sources."
     ],
   },
 
